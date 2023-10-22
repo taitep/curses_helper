@@ -1,6 +1,6 @@
 # curses_helper
 
-Provides curses helper info.
+Provides curses helper stuff.
 
 ## `@curses_app`
 The `@curses_app` decorator can be used as a replacement for wrapper. It takes the following arguments:

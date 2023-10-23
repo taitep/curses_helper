@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "curses-helper"
-version = "0.2.0"
+version = "0.3.0"
 description = "Curses helper stuff."
 authors = ["taitep <arvid@h.se>"]
 keywords = ["curses"]

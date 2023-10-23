@@ -1,7 +1,7 @@
 import curses
 
 
-def curses_app(echo=False, cbreak=True, keypad=False, color=True):
+def curses_app(echo=False, cbreak=True, keypad=False, color=False):
     def wrapper(func: callable):
         def wrapper(*args, **kwargs):
             try:

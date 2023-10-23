@@ -15,8 +15,9 @@ def curses_app(echo=False, cbreak=True, keypad=False, color=False):
 
                 stdscr.keypad(keypad)
 
-                if curses.has_colors() and color:
+                if color:
                     curses.start_color()
+                    curses.use_default_colors()
 
                 func(stdscr, *args, **kwargs)
             finally:

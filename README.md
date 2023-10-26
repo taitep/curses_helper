@@ -2,6 +2,8 @@
 
 Provides curses helper stuff.
 
+Install with `pip3 install curses-helper`.
+
 ## `@curses_app`
 The `@curses_app` decorator can be used as a replacement for wrapper. It takes the following arguments:
 - `echo`: Whether to enable echo mode in the terminal. Default=False

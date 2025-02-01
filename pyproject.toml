@@ -2,7 +2,7 @@
 name = "curses-helper"
 version = "0.3.1"
 description = "Curses helper stuff."
-authors = ["taitep <arvid@h.se>"]
+authors = ["taitep <taitep@taitep.se>"]
 keywords = ["curses"]
 license = "GPLv3"
 homepage = "https://github.com/taitep/curses_helper"
